@@ -3,31 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@layer base {
-  body {
-    @apply bg-white text-gray-900;
-  }
-}
-
-@layer components {
-  .container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-  
-  @layer base {
-    body {
-      @apply bg-gray-900 text-white;
-    }
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 0, 0, 0;
   }
 }
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+} 
