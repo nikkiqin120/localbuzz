@@ -42,6 +42,10 @@ export default function AboutPage() {
               your travel experiences, or have suggestions for improvement, we'd love to 
               connect with you. Follow us on social media or reach out through our contact page.
             </p>
+
+            <p className="text-gray-600 mb-4">
+              Our blog covers a wide range of topics, from family travel destinations to home maintenance services. We provide detailed guides for family-friendly travel experiences and practical information about maintaining your home. Our goal is to help local families make informed decisions about both their travel plans and home care needs.
+            </p>
           </div>
         </div>
       </div>

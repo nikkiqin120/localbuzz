@@ -23,7 +23,13 @@ export default function Layout({ children }: LayoutProps) {
                 href="/"
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
               >
-                Home
+                Travel
+              </Link>
+              <Link
+                href="/home-maintenance"
+                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Home Maintenance
               </Link>
               <Link
                 href="/about"
@@ -48,9 +54,9 @@ export default function Layout({ children }: LayoutProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-4">VancouverLocalBuzz</h3>
+              <h3 className="text-lg font-semibold mb-4">LocalBuzz</h3>
               <p className="text-gray-400">
-                Your guide to family-friendly travel destinations and experiences.
+                Your guide to family-friendly travel destinations and home maintenance services.
               </p>
             </div>
             <div>
@@ -62,6 +68,14 @@ export default function Layout({ children }: LayoutProps) {
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/home-maintenance"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Home Maintenance
                   </Link>
                 </li>
                 <li>
