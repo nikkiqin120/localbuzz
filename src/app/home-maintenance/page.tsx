@@ -7,79 +7,76 @@ export default function HomeMaintenance() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Roof Cleaning Section */}
-        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div className="p-6">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Roof Cleaning</h2>
-            <p className="text-gray-600 mb-4">
-              Professional roof cleaning services to maintain your home's curb appeal and prevent damage.
-            </p>
-            <div className="w-full h-[300px] mb-4">
-              <iframe
-                className="w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/your-video-id"
-                title="Roof Cleaning Service"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+        <Link href="/home-maintenance/roof-cleaning" className="block">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Roof Cleaning Services</h2>
+              <p className="text-gray-600 mb-4">
+                Professional roof cleaning services to maintain your home's appearance and protect your roof.
+              </p>
+              <div className="w-full h-[300px] mb-4">
+                <iframe
+                  className="w-full h-full rounded-lg"
+                  src="https://www.youtube.com/embed/3nFh0u15rhk"
+                  title="Roof Cleaning Service"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+                Learn More
+              </div>
             </div>
-            <Link
-              href="/home-maintenance/roof-cleaning"
-              className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
-            >
-              Learn More
-            </Link>
           </div>
-        </div>
+        </Link>
 
         {/* Soft Wash Section */}
-        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div className="p-6">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Soft Wash Services</h2>
-            <p className="text-gray-600 mb-4">
-              Gentle yet effective cleaning solutions for your home's exterior surfaces, including siding, fences, and decks.
-            </p>
-            <div className="w-full h-[300px] mb-4">
-              <iframe
-                className="w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/uzkMwHZf3Y8?cc_load_policy=1&cc_lang_pref=en"
-                title="Soft Wash Service"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+        <Link href="/home-maintenance/soft-wash" className="block">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Soft Wash Services</h2>
+              <p className="text-gray-600 mb-4">
+                Gentle yet effective cleaning solutions for your home's exterior surfaces.
+              </p>
+              <div className="w-full h-[300px] mb-4">
+                <iframe
+                  className="w-full h-full rounded-lg"
+                  src="https://www.youtube.com/embed/uzkMwHZf3Y8?cc_load_policy=1&cc_lang_pref=en"
+                  title="Soft Wash Service"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+                Learn More
+              </div>
             </div>
-            <Link
-              href="/home-maintenance/soft-wash"
-              className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
-            >
-              Learn More
-            </Link>
           </div>
-        </div>
+        </Link>
 
-        {/* Plumbing Section */}
-        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div className="p-6">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Plumbing Services</h2>
-            <p className="text-gray-600 mb-4">
-              Professional plumbing services for your home's maintenance needs.
-            </p>
-            <div className="w-full h-[300px] mb-4">
-              <iframe
-                className="w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/your-video-id"
-                title="Plumbing Service"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+        {/* Duct Cleaning Section */}
+        <Link href="/home-maintenance/duct-cleaning" className="block">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Duct Cleaning Services</h2>
+              <p className="text-gray-600 mb-4">
+                Professional duct cleaning services for your HVAC system, including furnace, air conditioning, dryer vents, and ventilation systems.
+              </p>
+              <div className="w-full h-[300px] mb-4">
+                <iframe
+                  className="w-full h-full rounded-lg"
+                  src="https://www.youtube.com/embed/2a86xiLlAHo"
+                  title="Duct Cleaning Service"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+                Learn More
+              </div>
             </div>
-            <Link
-              href="/home-maintenance/plumbing"
-              className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
-            >
-              Learn More
-            </Link>
           </div>
-        </div>
+        </Link>
 
         {/* Local Companies Section */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -103,7 +100,7 @@ export default function HomeMaintenance() {
               </li>
             </ul>
             <Link
-              href="/home-maintenance/local-providers"
+              href="/contact"
               className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors mt-4"
             >
               View Providers
