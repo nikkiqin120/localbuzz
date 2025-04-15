@@ -80,6 +80,14 @@ export default function Layout({ children }: LayoutProps) {
                     Contact
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/privacy"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Privacy Policy
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
@@ -103,16 +111,6 @@ export default function Layout({ children }: LayoutProps) {
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Instagram
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Facebook
                   </a>
                 </li>
               </ul>
