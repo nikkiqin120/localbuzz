@@ -95,12 +95,12 @@ export default function Layout({ children }: LayoutProps) {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="https://twitter.com"
+                    href="https://twitter.com/vancouverzz"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
-                    Twitter
+                    X (Twitter)
                   </a>
                 </li>
                 <li>
