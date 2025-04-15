@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   title: "LocalBuzz - Family Travel Blog",
   description:
     "Discover family-friendly travel destinations, tips, and experiences for your next adventure.",
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
