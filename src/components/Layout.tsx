@@ -105,7 +105,7 @@ export default function Layout({ children }: LayoutProps) {
                 </li>
                 <li>
                   <a
-                    href="https://instagram.com"
+                    href="https://instagram.com/vancouverlocalbuzz"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"
