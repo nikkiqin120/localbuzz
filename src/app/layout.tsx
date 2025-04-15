@@ -36,6 +36,11 @@ export default function RootLayout({
             gtag('config', 'G-YBM27K0QRR');
           `}
         </Script>
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9415695507045634"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className={`${inter.className} min-h-full antialiased`}>
         <Layout>{children}</Layout>
