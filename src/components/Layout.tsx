@@ -31,12 +31,12 @@ export default function Layout({ children }: LayoutProps) {
               >
                 Home Maintenance
               </Link>
-              <Link
+              {/* <Link
                 href="/about"
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
               >
                 About
-              </Link>
+              </Link> */}
               <Link
                 href="/contact"
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
