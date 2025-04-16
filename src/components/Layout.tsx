@@ -23,7 +23,13 @@ export default function Layout({ children }: LayoutProps) {
                 href="/"
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
               >
-                Home
+                Travel
+              </Link>
+              <Link
+                href="/home-maintenance"
+                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Home Maintenance
               </Link>
               <Link
                 href="/about"
@@ -62,6 +68,14 @@ export default function Layout({ children }: LayoutProps) {
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/home-maintenance"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Home Maintenance
                   </Link>
                 </li>
                 <li>
