@@ -7,13 +7,13 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-white shadow-sm">
+      <header className="bg-[#9B6B48] shadow-sm">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex">
               <Link
                 href="/"
-                className="flex items-center text-xl font-bold text-gray-900"
+                className="flex items-center text-2xl font-bold text-white"
               >
                 LocalBuzz
               </Link>
@@ -21,28 +21,28 @@ export default function Layout({ children }: LayoutProps) {
             <div className="flex items-center space-x-4">
               <Link
                 href="/"
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-white/80 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium hover:bg-[#9E6B45] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-md"
               >
                 Travel
               </Link>
               <Link
                 href="/home-maintenance"
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-white/80 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium hover:bg-[#9E6B45] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-md"
               >
                 Home Maintenance
               </Link>
-              {/* <Link
+              <Link
                 href="/about"
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                className="hidden md:block text-white/80 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium hover:bg-[#9E6B45] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-md"
               >
                 About
-              </Link> */}
-              {/* <Link
+              </Link>
+              <Link
                 href="/contact"
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                className="hidden md:block text-white/80 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium hover:bg-[#9E6B45] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-md"
               >
                 Contact
-              </Link> */}
+              </Link>
             </div>
           </div>
         </nav>
