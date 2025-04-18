@@ -18,18 +18,18 @@ export default function Layout({ children }: LayoutProps) {
                 LocalBuzz
               </Link>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2 md:space-x-4">
               <Link
                 href="/"
-                className="text-white/80 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium hover:bg-[#9E6B45] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-md"
+                className="text-white/80 hover:text-white px-2 md:px-3 py-2 rounded-md text-sm md:text-base font-medium hover:bg-[#9E6B45] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-md"
               >
                 Travel
               </Link>
               <Link
-                href="/home-maintenance"
-                className="text-white/80 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium hover:bg-[#9E6B45] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-md"
+                href="/home-care"
+                className="text-white/80 hover:text-white px-2 md:px-3 py-2 rounded-md text-sm md:text-base font-medium hover:bg-[#9E6B45] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-md"
               >
-                Home Maintenance
+                Home Care
               </Link>
               <Link
                 href="/about"
@@ -72,10 +72,10 @@ export default function Layout({ children }: LayoutProps) {
                 </li>
                 <li>
                   <Link
-                    href="/home-maintenance"
+                    href="/home-care"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
-                    Home Maintenance
+                    Home Care
                   </Link>
                 </li>
                 <li>
