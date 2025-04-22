@@ -7,7 +7,7 @@ export default function HomeMaintenance() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Roof Cleaning Section */}
-        <Link href="/home-maintenance/roof-cleaning" className="block">
+        <Link href="/home-care/roof-cleaning" className="block">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
             <div className="p-6">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Roof Cleaning Services</h2>
@@ -31,7 +31,7 @@ export default function HomeMaintenance() {
         </Link>
 
         {/* Soft Wash Section */}
-        <Link href="/home-maintenance/soft-wash" className="block">
+        <Link href="/home-care/soft-wash" className="block">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
             <div className="p-6">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Soft Wash Services</h2>
@@ -55,7 +55,7 @@ export default function HomeMaintenance() {
         </Link>
 
         {/* Duct Cleaning Section */}
-        <Link href="/home-maintenance/duct-cleaning" className="block">
+        <Link href="/home-care/duct-cleaning" className="block">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
             <div className="p-6">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Duct Cleaning Services</h2>
