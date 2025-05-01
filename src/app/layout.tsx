@@ -25,6 +25,12 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <head>
         <Script
+          id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="e422b246-802e-4125-ada8-b02f8c844153"
+          strategy="afterInteractive"
+        />
+        <Script
           src={`https://www.googletagmanager.com/gtag/js?id=G-YBM27K0QRR`}
           strategy="afterInteractive"
         />
